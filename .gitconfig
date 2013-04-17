@@ -26,8 +26,8 @@
     old = red bold
     new = green bold
 [color "status"]
-    added = yellow
-    changed = green
+    added = green
+    changed = yellow
     untracked = cyan     
 [alias]
      lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
