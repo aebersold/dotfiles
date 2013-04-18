@@ -4,7 +4,7 @@ alias ...='cd ../..'
 alias ls='ls -FG'
 alias please='sudo'
 alias bashrc='vim ~/.dotfiles/.bash_profile'
-alias hosts='sudo $EDITOR /etc/hosts'
+alias hosts='sudo vim /private/etc/hosts'
 alias cls='clear'
 
 # IP addresses
@@ -40,8 +40,6 @@ alias gitl='git log'
 # developing
 alias bob='php artisan bob::build'
 
-
-# MacPorts Installer addition on 2012-09-12_at_15:55:06: adding an appropriate PATH variable for use with MacPorts.
+# MacPorts
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
 
