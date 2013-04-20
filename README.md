@@ -6,6 +6,12 @@ These are my dotfiles.
 
 To use, replace the current dotfiles in the home folder with symlinks
 
+You can use the small installer script:
+    
+    sh setup.sh
+    
+Or manually symlink the new dotfiles:
+
     ln -s ~/.dotfiles/.bashrc ~
     ln -s ~/.dotfiles/.bash_profile ~
     ln -s ~/.dotfiles/.gitconfig ~
