@@ -12,4 +12,5 @@ ln -s ~/.dotfiles/.gitconfig ~
 ln -s ~/.dotfiles/.gitignore_global ~
 ln -s ~/.dotfiles/.vimrc ~
 
+say -v Victoria "simon is awesome"
 echo "installed"
