@@ -19,8 +19,8 @@ alias whois="whois -h whois-servers.net"
 alias flush="dscacheutil -flushcache"
 
 # fahrplan
-alias gohome='fahrplan von zürich altstetten nach oberwinterthur'
-alias gowork='fahrplan von oberwinterthur nach zürich altstetten'
+alias gohome='fahrplan von zürich manegg nach oberwinterthur'
+alias gowork='fahrplan von oberwinterthur nach zürich manegg'
 alias gowinti='fahrplan von oberwinterthur nach winterthur'
 
 # GIT to work
