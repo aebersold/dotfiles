@@ -1,4 +1,4 @@
-These are my dotfiles.
+These are my dotfiles. They are supposed to install my settings on any OSX machine.
 
 ## Setup
 
