@@ -17,6 +17,7 @@ Or manually symlink the new dotfiles:
     ln -s ~/.dotfiles/.gitconfig ~
     ln -s ~/.dotfiles/.gitignore_global ~
     ln -s ~/.dotfiles/.vimrc ~
+    ln -s ~/.dotfiles/ST2/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
 
 ## Thanks
 
