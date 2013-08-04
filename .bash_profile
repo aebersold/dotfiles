@@ -28,6 +28,7 @@ alias gowinti='fahrplan von oberwinterthur nach winterthur'
 alias amidala='ssh simon@amidala'
 alias umetriqs='ssh efk@norma.uberspace.de'
 alias uabrsld='ssh abrsld@musca.uberspace.de'
+alias utravel='ssh travel@mensa.uberspace.de'
 
 # GIT to work
 alias g='git'
@@ -51,9 +52,16 @@ alias gitl='git lg'
 
 # developing
 alias bob='php artisan bob::build'
+alias phpini='vi /Applications/MAMP/bin/php/php5.4.10/conf/php.ini'
+alias cal='composer dump-autoload'
 
-# setup stuff and PATHs
+# PATHs
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/Applications/MAMP/bin/php/php5.4.4/bin:$PATH
-export WORKON_HOME=~/Envs
+export PATH=$PATH:/Applications/MAMP/Library/bin
+
+# virtualenvs
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
