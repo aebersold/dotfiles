@@ -1,7 +1,7 @@
 # system
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ls='ls -FG'
+alias ls='ls -lFG'
 alias please='sudo'
 alias bashrc='vim ~/.dotfiles/.bash_profile'
 alias hosts='sudo vim /private/etc/hosts'
@@ -54,6 +54,7 @@ alias gitl='git lg'
 alias bob='php artisan bob::build'
 alias phpini='vi /Applications/MAMP/bin/php/php5.4.10/conf/php.ini'
 alias cal='composer dump-autoload'
+alias artisan='php artisan'
 
 # PATHs
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
