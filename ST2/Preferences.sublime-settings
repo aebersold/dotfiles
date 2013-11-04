@@ -10,14 +10,16 @@
 	],
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Djaneiro",
+		"SideBarEnhancements"
 	],
 	"rulers":
 	[
 		80
 	],
+	"save_on_focus_lost": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"save_on_focus_lost": true
+	"translate_tabs_to_spaces": true
 }
