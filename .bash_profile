@@ -20,9 +20,9 @@ alias whois="whois -h whois-servers.net"
 alias flush="dscacheutil -flushcache"
 
 # fahrplan
-alias gohome='fahrplan von zürich manegg nach oberwinterthur'
-alias gowork='fahrplan von oberwinterthur nach zürich manegg'
-alias gowinti='fahrplan von oberwinterthur nach winterthur'
+alias gohome='fahrplan von winterthur nach Humlikon, flaachtalstrasse'
+alias gowork='fahrplan von humlikon, im gern nach zürich manegg'
+alias gowinti='fahrplan von humlikon, im gern nach winterthur'
 
 # ssh'ing away
 alias amidala='ssh simon@amidala'
