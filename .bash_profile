@@ -25,6 +25,7 @@ alias gowork='fahrplan von humlikon, im gern nach zürich manegg'
 alias gowinti='fahrplan von humlikon, im gern nach winterthur'
 
 # ssh'ing away
+alias lab='ssh aebersim@srv-lab-t-962.zhaw.ch'
 alias amidala='ssh simon@amidala'
 alias umetriqs='ssh efk@norma.uberspace.de'
 alias uabrsld='ssh abrsld@musca.uberspace.de'
