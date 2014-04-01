@@ -20,7 +20,7 @@ alias whois="whois -h whois-servers.net"
 alias flush="dscacheutil -flushcache"
 
 # Random Stuff
-alias cat="echo -e '   /\_/\ \n   >^.^<.---.\n  _'\"'\"'-\`-'\"'\"'     )\ \n (6--\ |--\ (\`.\`-.\n     --'\"'\"'  --'\"'\"'  \`\`-'\"'\"''"
+alias realcat="echo -e '   /\_/\ \n   >^.^<.---.\n  _'\"'\"'-\`-'\"'\"'     )\ \n (6--\ |--\ (\`.\`-.\n     --'\"'\"'  --'\"'\"'  \`\`-'\"'\"''"
 
 # fahrplan
 alias gohome='fahrplan von winterthur nach Humlikon, flaachtalstrasse'
