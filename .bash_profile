@@ -19,6 +19,9 @@ alias whois="whois -h whois-servers.net"
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache"
 
+# Random Stuff
+alias cat="echo -e '   /\_/\ \n   >^.^<.---.\n  _'\"'\"'-\`-'\"'\"'     )\ \n (6--\ |--\ (\`.\`-.\n     --'\"'\"'  --'\"'\"'  \`\`-'\"'\"''"
+
 # fahrplan
 alias gohome='fahrplan von winterthur nach Humlikon, flaachtalstrasse'
 alias gowork='fahrplan von humlikon, im gern nach zürich manegg'
@@ -56,11 +59,15 @@ alias bob='php artisan bob::build'
 alias phpini='vi /Applications/MAMP/bin/php/php5.4.10/conf/php.ini'
 alias cal='composer dump-autoload'
 alias artisan='php artisan'
+alias mysqlr='mysql -uroot -proot'
+alias mysqlrdump='mysqldump -uroot -proot'
+
 
 # PATHs
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export PATH=/Applications/MAMP/bin/php/php5.4.4/bin:$PATH
 export PATH=$PATH:/Applications/MAMP/Library/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin
 
 # virtualenvs
 export WORKON_HOME=$HOME/.virtualenvs
