@@ -7,6 +7,8 @@ alias bashrc='vim ~/.dotfiles/.bash_profile'
 alias hosts='sudo vim /private/etc/hosts'
 alias cls='clear'
 alias sshkey='cat ~/.ssh/id_rsa.pub | pbcopy'
+alias untar='tar xvf'
+alias tarit='tar cvf'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -58,7 +60,7 @@ alias gitl='git lg'
 
 # developing
 alias bob='php artisan bob::build'
-alias phpini='vi /Applications/MAMP/bin/php/php5.4.10/conf/php.ini'
+alias phpini='vi /Applications/MAMP/bin/php/php5.5.10/conf/php.ini'
 alias cal='composer dump-autoload'
 alias artisan='php artisan'
 alias mysqlr='mysql -uroot -proot'
@@ -67,7 +69,7 @@ alias mysqlrdump='mysqldump -uroot -proot'
 
 # PATHs
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=/Applications/MAMP/bin/php/php5.4.4/bin:$PATH
+export PATH=/Applications/MAMP/bin/php/php5.5.10/bin:$PATH
 export PATH=$PATH:/Applications/MAMP/Library/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin
 

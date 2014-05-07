@@ -10,9 +10,12 @@
 	],
 	"ignored_packages":
 	[
+		"Color Highlighter",
+		"Sass",
 		"Vintage",
-		"Djaneiro",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"Markdown Preview",
+		"Djaneiro"
 	],
 	"rulers":
 	[
