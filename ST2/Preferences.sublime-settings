@@ -10,12 +10,12 @@
 	],
 	"ignored_packages":
 	[
+		"Syntax Highlighting for Sass",
 		"Color Highlighter",
-		"Sass",
 		"Vintage",
-		"SideBarEnhancements",
-		"Markdown Preview",
-		"Djaneiro"
+		"Text Pastry",
+		"Emmet",
+		"Sass"
 	],
 	"rulers":
 	[

@@ -26,7 +26,8 @@ alias realcat="echo -e '   /\_/\ \n   >^.^<.---.\n  _'\"'\"'-\`-'\"'\"'     )\ \
 
 # fahrplan
 alias gohome='fahrplan von winterthur nach Humlikon, flaachtalstrasse'
-alias gowork='fahrplan von humlikon, im gern nach zürich manegg'
+alias gohomew='fahrplan von wallisellen nach Humlikon, flaachtalstrasse'
+alias gowork='fahrplan von humlikon, im gern nach wallisellen'
 alias gowinti='fahrplan von humlikon, im gern nach winterthur'
 
 # ssh'ing away
@@ -37,6 +38,8 @@ alias moskau='ssh simon@chtelefon.ch'
 alias umetriqs='ssh efk@norma.uberspace.de'
 alias uabrsld='ssh abrsld@musca.uberspace.de'
 alias utravel='ssh travel@mensa.uberspace.de'
+alias ltravel='ssh forge@88.80.187.237'
+alias adega='ssh simon.aebersold@192.168.20.10 -p 9989'
 
 # GIT to work
 alias g='git'
@@ -63,6 +66,7 @@ alias bob='php artisan bob::build'
 alias phpini='vi /Applications/MAMP/bin/php/php5.5.10/conf/php.ini'
 alias cal='composer dump-autoload'
 alias artisan='php artisan'
+alias routes='artisan routes'
 alias mysqlr='mysql -uroot -proot'
 alias mysqlrdump='mysqldump -uroot -proot'
 
