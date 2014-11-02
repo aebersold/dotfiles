@@ -8,6 +8,7 @@
 		"node_modules",
 		".sass-cache"
 	],
+	"font_size": 15.0,
 	"ignored_packages":
 	[
 		"Syntax Highlighting for Sass",
@@ -15,7 +16,8 @@
 		"Vintage",
 		"Text Pastry",
 		"Emmet",
-		"Sass"
+		"Sass",
+		"Theme - Soda"
 	],
 	"rulers":
 	[
@@ -23,6 +25,5 @@
 	],
 	"save_on_focus_lost": true,
 	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

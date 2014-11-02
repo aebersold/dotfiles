@@ -1,6 +1,4 @@
 [user]
-	name = aebersold
-	email = simon@ximedia.ch
 [core]
 	excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
@@ -36,3 +34,10 @@
 	autocorrect = 10
 [push]
 	default = simple
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[user]
+	name = Simon Aebersold
+	email = simon@ximedia.ch
