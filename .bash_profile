@@ -24,6 +24,12 @@ alias flush="dscacheutil -flushcache"
 # Random Stuff
 alias realcat="echo -e '   /\_/\ \n   >^.^<.---.\n  _'\"'\"'-\`-'\"'\"'     )\ \n (6--\ |--\ (\`.\`-.\n     --'\"'\"'  --'\"'\"'  \`\`-'\"'\"''"
 
+# cd shortcuts
+alias study='cd $HOME/Dropbox/Studium'
+
+# combine pdf's
+alias pdfcombine='gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=output.pdf'
+
 # fahrplan
 alias gohome='fahrplan von winterthur nach Humlikon, flaachtalstrasse'
 alias gohomew='fahrplan von wallisellen nach Humlikon, flaachtalstrasse'
@@ -32,12 +38,11 @@ alias gowinti='fahrplan von humlikon, im gern nach winterthur'
 alias gousgang='fahrplan von henggart nach winterthur'
 
 # stundenplan
-alias stundenplan='php -f /Users/simon/Repos/zhaw-today/stundenplan.php'
-alias huet='php -f /Users/simon/Repos/zhaw-today/stundenplan.php aebersim'
-alias morn='php -f /Users/simon/Repos/zhaw-today/stundenplan.php aebersim tomorrow'
+alias huet='stundenplan aebersim'
+alias morn='stundenplan aebersim tomorrow'
 
 # ssh'ing away
-alias zhawo='ssh root@srv-lab-t-704.zhaw.ch'
+alias zhawo='ssh user1@160.85.30.229'
 alias dublin='ssh aebersim@dublin.zhaw.ch'
 alias amidala='ssh simon@amidala.factor.ch'
 alias moskau='ssh simon@chtelefon.ch'
@@ -85,6 +90,9 @@ export PATH=/Applications/MAMP/bin/php/php5.6.2/bin:$PATH
 export PATH=$PATH:/Applications/MAMP/Library/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin
 export PATH=$PATH:~/.composer/vendor/bin
+export PATH=$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/scripts:$PATH
+
 
 # virtualenvs
 export WORKON_HOME=$HOME/.virtualenvs
